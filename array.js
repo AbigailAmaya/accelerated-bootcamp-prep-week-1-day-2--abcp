@@ -7,14 +7,17 @@ return[element,...array]
 
 function destructivelyAddElementToBeginningOfArray(array, element){
   // add element to the beginning of the array by mutating the array
+  array.unshift(element)
+  return array
 }
 
 function addElementToEndOfArray(array, element) {
-
+return [...array, element]
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-
+array.push(element)
+return array
 }
 
 function accessElementInArray(array, index) {
