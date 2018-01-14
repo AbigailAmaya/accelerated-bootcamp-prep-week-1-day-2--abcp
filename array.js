@@ -46,6 +46,3 @@ return array.slice(0, array.length - 1)
 
 
 function nonDestructivelyRemoveAtIndex(array, index)
-
-
-
